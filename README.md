@@ -27,10 +27,18 @@ AI-powered tool that automatically generates professional, well-structured READM
 
 ---
 
-## 📦 Installation
+## 📦 Installation & Running
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/pauls-shin/WRITEME.git
 cd WRITEME
+
+```
+### 2. Root Directory
+- **Backend:** 
+node backend/server.js
+
+- **Frontend:**
+npm run dev 
