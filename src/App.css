@@ -1,0 +1,149 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Takes care of Local Upload | Github Upload | WRITEME Output */
+.left-panel {
+  flex: 2;
+  padding: 40px;
+  background-color: #1f2227;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Local/Github Upload Sizing */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.OR-text {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #2c2f36;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 4px;
+}
+
+.button-image {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* The space btwn the two sections (UPLOADS & OUTPUT)*/
+.output-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+/* 'WRITEME Output' text */
+.output-section label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* TEXTBOX for 'WRITEME Output' */
+.output-section textbox {
+  flex: 1;
+  padding: 20px;
+  background-color: #1f2227;
+  color: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  resize: none;
+  font-family: monospace;
+  font-size: 18px;
+  overflow-y: auto;
+  min-height: 400px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+/* */
+.right-panel {
+  flex: 1;
+  background-color: #1f2227;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.mascot {
+  width: 600px;
+  height: auto;
+  margin-top: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.button-icon {
+  width: px;
+}
