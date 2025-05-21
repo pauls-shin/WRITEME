@@ -1,7 +1,5 @@
-# WRITEME
+# WRITEME 
 AI-powered tool that automatically generates professional, well-structured README.md files for GitHub repositories or local codebases.
-# WRITEME 🐱📄
-
 **WRITEME** is an AI-powered tool that instantly generates clean, professional `README.md` files from a GitHub URL or local project path. Whether you're a developer polishing up your portfolio or just tired of writing READMEs from scratch — WRITEME has your back.
 
 ![WRITEME Mascot](./src/assets/WRITEMECat.png)
