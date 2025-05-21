@@ -37,8 +37,12 @@ cd WRITEME
 
 ```
 ### 2. Root Directory
-- **Backend:** 
+- **Backend:**
+```bash
 node backend/server.js
+```
 
 - **Frontend:**
-npm run dev 
+```bash
+npm run dev
+```
